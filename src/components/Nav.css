@@ -1,9 +1,9 @@
 .Nav {
-  background: white;
+  background: #113e58;
   position: sticky;
   top: 0;
   z-index: 1;
-  border-bottom: 1px solid var(--lightGrey);
+  border-bottom: 1px solid #113e58;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 }
 
@@ -65,8 +65,8 @@
   position: absolute;
   top: calc(50% - 0.2rem);
   right: 1rem;
-  border-bottom: 2px solid var(--darkGrey);
-  border-right: 2px solid var(--darkGrey);
+  border-bottom: 2px solid var(--secondary);
+  border-right: 2px solid var(--secondary);
   display: block;
   height: 0.8rem;
   width: 0.8rem;
@@ -79,7 +79,7 @@
   top: 100%;
   left: 0;
   width: auto;
-  background: white;
+  background: #113e58;
   /* opacity: 0; */
   max-height: 0;
   overflow: hidden;
@@ -127,7 +127,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: #113e58;
     animation: Nav--Links 0.2s ease;
   }
 

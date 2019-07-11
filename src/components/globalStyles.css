@@ -1,9 +1,10 @@
 :root {
-  --primary: #00c2bd;
-  --secondary: #000;
+  --primary: #E3C389;
+  --secondary: #a9926a;
+  --primarydark: #113e58;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
-  --darkGrey: #272727;
+  --darkGrey: #3e3a3aed;
   --danger: #ff3d3d;
   --font-primary: 'Open Sans', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
@@ -37,7 +38,7 @@ body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
+  background: var(--primarydark);
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;
@@ -155,7 +156,7 @@ blockquote {
 .section {
   width: 100%;
   padding: 5rem 0;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid var(--secondary);
 }
 .section:last-child {
   border: 0;
