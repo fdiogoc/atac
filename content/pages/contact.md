@@ -11,7 +11,7 @@ locations:
   - lat: '-21.213100'
     lng: '-50.436671'
 meta:
-  description: +551836246862.
+  description: '+551836246862'
   title: Fale conosco
 ---
 
