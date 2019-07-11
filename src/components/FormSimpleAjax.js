@@ -7,12 +7,12 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
-    subject: '', // optional subject of the notification email
+    name: 'Formulario de contato',
+    subject: 'Contato - Site', // optional subject of the notification email
     action: '',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon',
+    successMessage: 'Obrigado por entrar em contato, retornaremos em breve!',
     errorMessage:
-      'There is a problem, your message has not been sent, please try contacting us via email'
+      'Ocorreu um problema e a mensagem não foi enviada, favor entrar em contato por email'
   }
 
   state = {
@@ -77,44 +77,24 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
-                name="firstname"
+                placeholder="Nome"
+                name="nome"
                 required
               />
-              <span>Firstname</span>
+              <span>Nome</span>
             </label>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Lastname"
-                name="lastname"
+                placeholder="Sobrenome"
+                name="sobrenome"
                 required
               />
-              <span>Lastname</span>
+              <span>Sobrenome</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
+
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -123,7 +103,7 @@ class Form extends React.Component {
               name="emailAddress"
               required
             />
-            <span>Email address</span>
+            <span>Email</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
@@ -133,31 +113,25 @@ class Form extends React.Component {
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                Tipo de pergunta
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Preciso de informações</option>
+              <option>Gostaria de solicitar algo</option>
+              <option>Outro</option>
+              
             </select>
           </label>
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
-              placeholder="Message"
-              name="message"
+              placeholder="Mensagem"
+              name="mensagem"
               rows="10"
               required
             />
-            <span>Message</span>
+            <span>Mensagem</span>
           </label>
-          <label className="Form--Label Form-Checkbox">
-            <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
-              type="checkbox"
-            />
-            <span>Get news updates</span>
-          </label>
+
           <div
             className="g-recaptcha"
             data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
@@ -167,7 +141,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Enviar"
             disabled={this.state.disabled}
           />
         </form>

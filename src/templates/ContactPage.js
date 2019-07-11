@@ -62,7 +62,7 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
+    <GoogleMap locations={locations}  />
   </main>
 )
 
@@ -91,7 +91,6 @@ export const pageQuery = graphql`
         phone
         email
         locations {
-          mapLink
           lat
           lng
         }

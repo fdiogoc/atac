@@ -48,7 +48,7 @@
   box-sizing: border-box;
   display: block;
   margin: 0;
-  border: 1px solid #bababa;
+  border: 1px solid var(--lightGrey);
   padding: 1.5rem 2rem;
   border-radius: var(--borderRadius);
   line-height: 1.25em;
@@ -57,6 +57,7 @@
   width: 100%;
   transition: 0.3s ease all;
   background: transparent;
+  color:white;
 }
 
 .Form--InputText:valid,
@@ -82,8 +83,9 @@
 }
 
 .Form--Select {
-  background: none;
+  
   appearance: none;
+  color:var(--secondary);
 }
 
 .Form--Label.has-arrow:after {
@@ -105,12 +107,12 @@
 
 .Form--Input:focus {
   outline: none;
-  border-color: black;
+  border-color: var(--lightGrey);
 }
 
 .Form--Input:focus {
   outline: none;
-  border-color: black;
+  border-color: var(--lightGrey);
 }
 
 .Form--Input[disabled],
@@ -125,7 +127,7 @@
 }
 
 .Form--Alert {
-  background: var(--lightGrey);
+  background: red;
   width: 100%;
   text-align: center;
   padding: 2rem;
@@ -154,7 +156,7 @@
 }
 
 .Form--Radio {
-  border: 1px solid var(--midGrey);
+  border: 1px solid var(--lightGrey);
   overflow: hidden;
   border-radius: var(--borderRadius);
 }
@@ -188,7 +190,7 @@
   right: 100%;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--midGrey);
+  background: var(--lightGrey);
   border-radius: var(--borderRadius);
 }
 
