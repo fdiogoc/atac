@@ -7,8 +7,8 @@ export default () => (
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://thriveweb.com.au/">Diogo</a>.
+          © Copyright {new Date().getFullYear()} Todos direitos reservados. Crafted by{' '}
+          <a href="https://github.com/fdiogoc">Diogo</a>.
         </span>
       </div>
     </footer>
