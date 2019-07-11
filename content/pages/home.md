@@ -1,30 +1,16 @@
 ---
 template: HomePage
 slug: ''
-title: Atac
+title: ATAC
 featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
 subtitle: 'Assessoria Técnica Administrativa e Contábil.'
 meta:
   description: ATAC - Assessoria Técnica Administrativa e Contábil.
-  title: Escritório
+  title: Contabilidade
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
 
-# Features
+# Lu consectetur anim reprehenderit ullamco duis aliqua ad commodo ex excepteur duis dolor eiusmod.
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
+Non sit excepteur quis occaecat incididunt dolor fugiat quis velit pariatur elit sunt pariatur exercitation. Nostrud duis ipsum in id sit sit qui dolor elit incididunt incididunt. Fugiat enim id ipsum consequat ad ad mollit voluptate commodo. Irure dolore elit nulla laboris dolor dolore anim.
 
-## Get started
-
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
