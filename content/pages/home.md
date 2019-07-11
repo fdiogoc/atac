@@ -2,8 +2,8 @@
 template: HomePage
 slug: ''
 title: ATAC
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: 'Assessoria Técnica Administrativa e Contábil.'
+featuredImage: 'https://ucarecdn.com/8bb21931-6e37-42d4-bf1e-bbc73e616983/'
+subtitle: Assessoria Técnica Administrativa e Contábil.
 meta:
   description: ATAC - Assessoria Técnica Administrativa e Contábil.
   title: Contabilidade
