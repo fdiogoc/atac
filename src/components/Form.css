@@ -127,10 +127,12 @@
 }
 
 .Form--Alert {
-  background: red;
+
+  background: #441818;
   width: 100%;
   text-align: center;
   padding: 2rem;
+  border-radius: 5px;
 }
 
 .Form--Input-honey {
